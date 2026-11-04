@@ -1,0 +1,3 @@
+*.stl -text
+*.step -text
+*.png binary

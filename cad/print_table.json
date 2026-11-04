@@ -1,0 +1,341 @@
+{
+ "parameters": {
+  "Zs": 228.0,
+  "board_l": 610.0,
+  "board_w": 286.0,
+  "board_t": 19.0,
+  "board_x0": -170.0,
+  "bolt_d": 12.7,
+  "bolt_len_in": 14.0,
+  "bolt_thread_in": 1.5,
+  "head_af": 19.05,
+  "head_h": 7.9,
+  "nut_h": 11.1,
+  "washer_od": 38.1,
+  "washer_t": 2.4,
+  "brg_od": 28.575,
+  "brg_w": 7.94,
+  "brg_race_d": 16.0,
+  "housing_od": 48.0,
+  "tower_w": 18.0,
+  "ped_base_x": 44.0,
+  "ped_base_y": 110.0,
+  "ped_base_t": 6.0,
+  "lip_r": 12.8,
+  "wheel_d": 152.4,
+  "wheel_w": 38.1,
+  "wheel_bore": 25.4,
+  "n_wheels": 4,
+  "gap": 31.0,
+  "face_d": 40.0,
+  "clr_bore": 0.3,
+  "wall_gap": 5.5,
+  "tank_x": 230.0,
+  "tank_y": 280.0,
+  "tank_h": 108.0,
+  "tank_wall": 2.4,
+  "tank_floor": 3.0,
+  "weir_y": 95.0,
+  "weir_h": 70.0,
+  "pan_front": -112.0,
+  "pan_back": 100.0,
+  "pan_t": 3.0,
+  "pan_gap": 3.0,
+  "wall_t": 3.0,
+  "slot_w": 26.0,
+  "hood_r": 90.0,
+  "hood_t": 3.0,
+  "hood_front_deg": 15.0,
+  "motor_rpm": 4000.0,
+  "arbor_rpm": 1500.0,
+  "z_motor": 20,
+  "gt2_belt": 500.0,
+  "motor_d": 42.0,
+  "motor_len": 67.0,
+  "motor_shaft_len": 17.0,
+  "motor_slot": 12.0,
+  "disk_d": 152.4,
+  "disk_t": 6.0,
+  "disk_hub_l": 7.0,
+  "shroud_r": 90.0,
+  "shroud_t": 3.0
+ },
+ "layout": {
+  "x_brg_L": 0.0,
+  "x_race_hub": [
+   -10.97,
+   -3.97
+  ],
+  "x_teeth": [
+   -20.47,
+   -12.47
+  ],
+  "xb": -16.47,
+  "x_hex_hub": [
+   -31.97,
+   -21.97
+  ],
+  "x_head_under": -23.369999999999997,
+  "x_wall_L": [
+   9.5,
+   12.5
+  ],
+  "x_spA": [
+   3.97,
+   18.0
+  ],
+  "x_wheels": [
+   [
+    18.0,
+    56.1
+   ],
+   [
+    87.1,
+    125.19999999999999
+   ],
+   [
+    156.2,
+    194.29999999999998
+   ],
+   [
+    225.29999999999998,
+    263.4
+   ]
+  ],
+  "x_gaps": [
+   [
+    56.1,
+    87.1
+   ],
+   [
+    125.19999999999999,
+    156.2
+   ],
+   [
+    194.29999999999998,
+    225.29999999999998
+   ]
+  ],
+  "x_wall_R": [
+   268.9,
+   271.9
+  ],
+  "x_brg_R": 281.4,
+  "x_spB": [
+   263.4,
+   277.42999999999995
+  ],
+  "x_shroud_wall": [
+   291.4,
+   294.4
+  ],
+  "x_spC": [
+   285.37,
+   299.9
+  ],
+  "x_disk_hub": [
+   299.9,
+   306.9
+  ],
+  "x_disk": [
+   306.9,
+   312.9
+  ],
+  "x_disk_face": 312.9,
+  "x_washer": [
+   312.9,
+   315.29999999999995
+  ],
+  "x_nut": [
+   315.29999999999995,
+   326.4
+  ],
+  "x_bolt_tip": 332.22999999999996,
+  "x_thread_start": 294.13,
+  "stack_ok": true,
+  "z_tank_rim": 127.0,
+  "z_pan": 130.0,
+  "x_tank": [
+   25.69999999999999,
+   255.7
+  ],
+  "z_arbor": 53,
+  "z_motor_axis": 46.0,
+  "belt_C": 213.24128187559182,
+  "motor_y": 111.12085446011297,
+  "arbor_max_rpm": 1509.433962264151,
+  "x_motor_face": -29.47
+ },
+ "parts": [
+  {
+   "part": "pedestal_L",
+   "qty": 1,
+   "bed_x": 44.0,
+   "bed_y": 110.0,
+   "height": 209.0,
+   "fits_420_bed": true,
+   "solid_cm3": 297.6,
+   "orientation": "base on bed"
+  },
+  {
+   "part": "pedestal_R",
+   "qty": 1,
+   "bed_x": 44.0,
+   "bed_y": 110.0,
+   "height": 209.0,
+   "fits_420_bed": true,
+   "solid_cm3": 297.6,
+   "orientation": "base on bed"
+  },
+  {
+   "part": "bearing_cap",
+   "qty": 2,
+   "bed_x": 18.0,
+   "bed_y": 64.0,
+   "height": 24.0,
+   "fits_420_bed": true,
+   "solid_cm3": 13.3,
+   "orientation": "mating face on bed"
+  },
+  {
+   "part": "arbor_pulley",
+   "qty": 1,
+   "bed_x": 40.0,
+   "bed_y": 40.0,
+   "height": 28.0,
+   "fits_420_bed": true,
+   "solid_cm3": 18.6,
+   "orientation": "hex hub on bed"
+  },
+  {
+   "part": "bushing",
+   "qty": 4,
+   "bed_x": 25.2,
+   "bed_y": 25.2,
+   "height": 36.6,
+   "fits_420_bed": true,
+   "solid_cm3": 13.4,
+   "orientation": "on end"
+  },
+  {
+   "part": "spacer_A",
+   "qty": 1,
+   "bed_x": 40.0,
+   "bed_y": 40.0,
+   "height": 14.0,
+   "fits_420_bed": true,
+   "solid_cm3": 5.2,
+   "orientation": "wheel face on bed"
+  },
+  {
+   "part": "spacer_gap",
+   "qty": 3,
+   "bed_x": 40.0,
+   "bed_y": 40.0,
+   "height": 31.0,
+   "fits_420_bed": true,
+   "solid_cm3": 14.7,
+   "orientation": "on end"
+  },
+  {
+   "part": "spacer_B",
+   "qty": 1,
+   "bed_x": 40.0,
+   "bed_y": 40.0,
+   "height": 14.0,
+   "fits_420_bed": true,
+   "solid_cm3": 5.2,
+   "orientation": "wheel face on bed"
+  },
+  {
+   "part": "spacer_C",
+   "qty": 1,
+   "bed_x": 40.0,
+   "bed_y": 40.0,
+   "height": 14.5,
+   "fits_420_bed": true,
+   "solid_cm3": 5.2,
+   "orientation": "disk face on bed"
+  },
+  {
+   "part": "pan",
+   "qty": 1,
+   "bed_x": 262.4,
+   "bed_y": 215.0,
+   "height": 191.1,
+   "fits_420_bed": true,
+   "solid_cm3": 405.9,
+   "orientation": "upright"
+  },
+  {
+   "part": "hood",
+   "qty": 1,
+   "bed_x": 159.1,
+   "bed_y": 193.9,
+   "height": 255.4,
+   "fits_420_bed": true,
+   "solid_cm3": 265.7,
+   "orientation": "stands on one end (X vertical), brim 8 mm"
+  },
+  {
+   "part": "disk_shroud",
+   "qty": 1,
+   "bed_x": 310.0,
+   "bed_y": 192.0,
+   "height": 41.5,
+   "fits_420_bed": true,
+   "solid_cm3": 170.6,
+   "orientation": "inner wall on bed"
+  },
+  {
+   "part": "backing_plate",
+   "qty": 1,
+   "bed_x": 152.4,
+   "bed_y": 152.4,
+   "height": 13.0,
+   "fits_420_bed": true,
+   "solid_cm3": 129.8,
+   "orientation": "disk face on bed"
+  },
+  {
+   "part": "tank",
+   "qty": 1,
+   "bed_x": 230.0,
+   "bed_y": 292.0,
+   "height": 108.0,
+   "fits_420_bed": true,
+   "solid_cm3": 490.2,
+   "orientation": "floor on bed"
+  },
+  {
+   "part": "motor_cradle",
+   "qty": 1,
+   "bed_x": 74.0,
+   "bed_y": 62.0,
+   "height": 27.0,
+   "fits_420_bed": true,
+   "solid_cm3": 45.2,
+   "orientation": "base on bed"
+  },
+  {
+   "part": "motor_strap",
+   "qty": 1,
+   "bed_x": 50.0,
+   "bed_y": 54.0,
+   "height": 24.0,
+   "fits_420_bed": true,
+   "solid_cm3": 15.1,
+   "orientation": "flat ends on bed"
+  },
+  {
+   "part": "control_mount",
+   "qty": 1,
+   "bed_x": 70.0,
+   "bed_y": 45.0,
+   "height": 80.0,
+   "fits_420_bed": true,
+   "solid_cm3": 45.6,
+   "orientation": "side on bed"
+  }
+ ]
+}
